@@ -1,0 +1,31 @@
+body {
+    background: rgb(154,153,198);
+    background: linear-gradient(104deg, rgba(154,153,198,1) 0%, rgba(198,153,178,1) 100%);
+}
+
+.pagina-NotFound {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+
+    hr {
+        height: 100px;
+        border-color: black;
+    }
+
+    >div {
+        
+        text-align: center;
+
+        h1 {
+            font: 200 40px 'poppins';
+        }
+
+        p {
+            font: 400 20px 'poppins';
+        }
+    }
+}
