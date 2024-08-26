@@ -23,13 +23,23 @@ body {
             width: 100px;
         }
 
-        button{
-            font: 300 14px poppins;
-            color: #fff;
-            padding: 10px 15px ;
-            background-color: #7760CB;
-            border: none;
-            border-radius: 50px;
+        >div {
+            img{
+                width: 15px;
+                height: 15px;
+                position: relative;
+                left: 30px;
+                top: 3px;
+            }
+    
+            input {
+                border-radius: 50px;
+                width: 300px;
+                height: 40px;
+                border: none;
+                outline: none;
+                padding: 0 20px 0 40px;
+            }
         }
     }
 
